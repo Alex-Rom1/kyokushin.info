@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(223, 180, 128);
+    border-bottom: solid rgb(163, 137, 106) 1px;
+}
+header h1{
+    margin: 0px 10px;
+    position: relative;
+    top: 5px;
+}
+.kanji{
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.logo{
+    height: 50px;
+}
+.center{
+    margin: auto;
+}
+h1{
+    font-family: 'Trade Winds', sans-serif;
+}
+footer{
+    background-color: rgb(223, 180, 128);
+    border-top: solid rgb(163, 137, 106) 1px;
+    width: 100%;
+    padding: 10px;
+}
+.inline{
+    display: flex;
+    align-items: center;
+}
+.inline a{
+    margin-left: 5px;
+}
+.navig{
+    display: flex;
+    justify-content: center;
+    margin: 160px 0px;
+}
+.navig a{
+    text-decoration: none;
+}
+.navigCard{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 185px 10px;
+    box-sizing: border-box;
+    position: relative;
+    transition: 400ms;
+}
+.navigCard h2{
+    margin: 0px;
+    text-align: center;
+    color: black;
+}
+.cardImg{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    border-radius: 10px;
+    filter: blur(4px);
+    transition: 400ms;
+    border: solid 2px gray;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.navigCard:hover .cardImg{
+    filter: blur(0px);
+    transform: scale(1.05);
+}
+.navigCard:hover{
+    transform: scale(1.05);
+}
+.oyama{
+    background-image: url(oyama.jpg);
+}
+.kihon{
+    background-image: url(kihon.jpeg);
+}
+.kumite{
+    background-image: url(kumite.jpg);
+}
