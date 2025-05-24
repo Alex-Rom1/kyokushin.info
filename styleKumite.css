@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @media (min-width: 328px){
-    main img{
-        border-radius: 10px;
-    }
-    .containerImg img{
+    div img{
         border-radius: 10px;
     }
     .imgInfo{
