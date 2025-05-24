@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@media (min-width: 328px){
+    .return{
+        background-color: bisque;
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0px;
+        border-radius: 10px;
+    }
+    img{
+        border-radius: 10px;
+    }
+    .additional{
+        display: none;
+    }
+    .imgInfo img{
+        width: 100%;
+    }
+    .imgInfo{
+        text-align: center;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    article{
+        margin: 15px;
+    }
+    body{
+        background-color: bisque;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+    header{
+        margin-bottom: 20px;
+        padding: 20px 50px;
+        justify-content: flex-end;
+        background-color: rgb(223, 180, 128);
+        border-bottom: solid rgb(163, 137, 106) 1px;
+    }
+    .kanji{
+        height: 70px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    footer{
+        background-color: rgb(223, 180, 128);
+        border-top: solid rgb(163, 137, 106) 1px;
+        width: 100%;
+        padding: 10px;
+    }
+    .inline{
+        display: flex;
+        align-items: center;
+    }
+    .inline a{
+        margin-left: 5px;
+    }
+    .logo{
+        display: none;
+    }
+    .logoH1{
+        display: none;
+    }
+    .center{
+        margin: 0px;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+}
+@media(min-width: 768px){
+    header{
+        height: 50px;
+        display: flex;
+    }
+    .return{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        background-color: rgb(163, 137, 106);
+        border: solid 1px black;
+    }
+    header h1{
+        margin: 0px 10px;
+        position: relative;
+        top: 5px;
+    }
+    .logo{
+        height: 50px;
+        display: inline;
+    }
+    .center{
+        margin: 0px auto;
+        width: auto;
+    }
+    h1{
+        font-family: 'Trade Winds', sans-serif;
+    }
+}
+@media (min-width: 1024px){
+    .return{
+        transition: 400ms;
+    }
+    .return:hover{
+        transform: scale(1.05);
+    }
+    .logoH1{
+        display: block;
+    }
+    section{
+        display: flex;
+    }
+    .imgInfo{
+        width: 40%;
+        box-sizing: border-box;
+    }
+    article{
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .additional{
+        display: block;
+    }
+}
+@media(min-width: 1280px){
+    .imgInfo{
+        width: 58%;
+    }
+    article{
+        width: 40%;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+    .additional{
+        display: none;
+    }
+}
