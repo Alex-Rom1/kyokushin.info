@@ -121,10 +121,7 @@
         width: 25%;
     }
     .iframeContainer{
-        display: flex;
-        box-sizing: border-box;
-    }
-    .iframeContainer div{
-        width: 50%;
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 }
